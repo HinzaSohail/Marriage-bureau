@@ -1,1 +1,177 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Marriage Bureau</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fefefe;
+      color: #333;
+    }
+    .hero {
+      background: url('https://content.jdmagicbox.com/comp/kapurthala/n3/9999px182.x182.180725100537.k1n3/catalogue/sharma-marriage-bureau-kapurthala-marriage-bureau-3i8dyupxyf.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      background-color: rgba(0,0,0,0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .section-title {
+      font-size: 2em;
+      color: #e91e63;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .dual-text {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .dual-text div {
+      flex: 1 1 45%;
+      font-size: 1.1em;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff0f6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+    }
+    button {
+      background: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      color: #555;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .whatsapp img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Royal Marriage Bureau</h1>
+    <p>Rishta Aapke Sapno Ka | رشتہ آپ کے سپنوں کا</p>
+  </div>
+
+  <section>
+    <h2 class="section-title">About Us | همارے بارے میں</h2>
+    <div class="dual-text">
+      <div>We are a trusted name in matrimonial services with 15+ years of experience in finding the right match for every heart.</div>
+      <div style="text-align: right">ہم 15 سال سے زیادہ عرصے سے اعتماد کے ساتھ رشتے ملانے کی سےروس فراہم کر رہے ہیں۔</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Our Services | ہماری سےروسے</h2>
+    <div class="card-grid">
+      <div class="card">Verified Matches</div>
+      <div class="card">تصدیق شدہ رشتے</div>
+      <div class="card">All Religions & Communities</div>
+      <div class="card">ہر مذاہب اور برادریاں</div>
+      <div class="card">Confidential Meetings</div>
+      <div class="card">رازدارانہ ملاقاتیں</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Testimonials | گاہک کی رائی</h2>
+    <div class="dual-text">
+      <div>“We found the perfect match for our daughter. Thank you Royal Bureau!” - A. Sharma</div>
+      <div style="text-align: right">“ہمیں اپنی بیٹی کے لیے بہترین رشتہ ملا شکریہ، Royal Bureau!”</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact Us | رابطہ کریں</h2>
+    <form action="https://formsubmit.co/sohailhinza601@gmail.com" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="Name" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="Phone" required />
+
+      <label for="details">Tell us about your requirement</label>
+      <textarea id="details" name="Details" rows="4" required></textarea>
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourusername.github.io/thankyou.html">
+
+      <button type="submit">Submit Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Royal Marriage Bureau. All rights reserved.
+  </footer>
+
+  <a href="https://wa.me/923001234567" class="whatsapp" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+</body>
+</html>
 
